@@ -1,0 +1,405 @@
+---
+title: "Fondos de amortización"
+format:
+  revealjs:
+    theme: solarized
+    logo: logo.png
+    transition: zoom
+    center: true
+    download: true
+  pdf: default
+---
+
+# INTEGRANTES
+
+*Atziri Amairany Arenas Jiménez*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2408829f@umich.mx  
+
+*Gisela Yamilet Cruz Herrera*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2230776e@umich.mx  
+
+*Ulises Salvador Aguilar Reyes*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2408847k@umich.mx  
+
+# 
+
+*Javier Eduardo Ortiz Galeana*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2408848k@umich.mx  
+
+*Mya Camila Esquivel Villanueva*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2408850j@umich.mx
+
+*Marco Antonio Hernandes Rojas*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2431507b@umich.mx
+
+*Francisco Javier Sanchez Lopez*  
+Universidad Michoacana de San Nicolás de Hidalgo  
+📧 2408830x@umich.mx
+
+# Concepto de fondo de amortización
+Depósito periódico de dinero destinado a reunir un monto futuro para pagar total o parcialmente una deuda o una emisión de bonos.
+
+Objetivo: Acumular dinero de forma programada para cubrir un pago futuro, evitando desembolsos grandes e inesperados.
+
+# Diferencia entre fondo de amortización y amortización directa
+Fondo de amortización: se ahorra en una cuenta separada para liquidar la deuda en una fecha futura.
+
+Amortización directa: se paga la deuda gradualmente mediante pagos periódicos que reducen capital e intereses.
+
+# Características principales
+Depósitos periódicos: Son las aportaciones que se realizan de manera constante (mensual, bimestral, trimestral, anual, etc.).
+Estos depósitos alimentan el fondo con el objetivo de reunir una cantidad futura para pagar una deuda o reemplazar un activo.
+
+Tasa de interés: Es el rendimiento que genera el fondo por los depósitos.
+Generalmente se expresa como tasa periódica y determina cuánto crecerá el dinero depositado en cada periodo.
+
+#
+
+Plazo: Es el tiempo total durante el cual se realizan los depósitos.
+Puede expresarse en meses o años y define cuántos depósitos se harán y cuánto tiempo tendrá el fondo para crecer.
+
+Acumulación de intereses: Es la forma en que los intereses se van sumando al capital, generando interés compuesto.
+Cada depósito comienza a generar intereses desde el momento en que entra al fondo, por lo que los primeros depósitos generan más rendimiento que los últimos.
+
+# Fórmulas básicas
+Valor futuro del fondo (F): Un fondo de amortización funciona igual que una anualidad de ahorro, donde se hacen depósitos periódicos que generan interés compuesto.
+
+Anualidad ordinaria (vencida): Los depósitos se realizan al final de cada periodo.
+$$
+R = \frac{Fi}{(1+i)^n - 1}
+$$
+
+#
+
+Anualidad anticipada: Los depósitos se realizan al inicio de cada periodo.
+$$
+R = \frac{Fi}{(1+i)^n - 1} \cdot \frac{1}{1+i}
+$$
+
+# Cálculo del depósito periódico (R)
+Se despeja la fórmula anterior para encontrar el depósito necesario para reunir un monto futuro F.
+
+a) Anualidad ordinaria
+$$
+F = R \left( \frac{(1+i)^n - 1}{i} \right)
+$$
+
+b) Anualidad anticipada
+$$
+F = R \left( \frac{(1+i)^n - 1}{i} \right)(1+i)
+$$
+
+# Relación con anualidades ordinarias y anticipadas
+Un fondo de amortización es, matemáticamente, una anualidad de ahorro:
+
+*Si los depósitos son al final del periodo, el fondo funciona como una anualidad ordinaria (vencida).
+
+*Si los depósitos son al inicio del periodo, el fondo funciona como una anualidad anticipada.
+
+#
+
+La única diferencia entre una anualidad y un fondo de amortización es el objetivo:
+
+*La anualidad busca conocer un valor futuro o actual según pagos.
+
+*El fondo de amortización busca acumular un monto específico en el futuro para liquidar una deuda o sustituir un activo.
+
+# Mecanismos de funcionamiento 
+Un mecanismo de funcionamiento explica cómo opera un proceso paso a paso.
+
+• Permite entender cómo se relacionan sus elementos principales.
+
+• En este caso, analizaremos tres puntos clave:
+
+a)Cómo se constituyen los depósitos
+
+b)Papel de la tasa de rendimiento
+
+c)Capitalización del fondo
+
+# Como se constituyen los depositos
+En un fondo de amortización, 
+
+-los depósitos son aportaciones periódicas realizadas durante un plazo establecido.
+
+-Pueden ser montos fijos (lo más común) o variables, según el plan.
+
+-Cada depósito se integra al fondo y comienza a generar intereses desde el momento en que entra.
+
+# Papel de la tasa de rendimiento
+La tasa de rendimiento determina la velocidad a la que crece el fondo.
+
+A mayor tasa, mayor acumulación de intereses y menor depósito necesario cada periodo.
+
+A menor tasa, el fondo crece más lento y se requieren depósitos más altos para llegar al mismo monto futuro.
+
+La tasa se aplica de forma compuesta, lo cual incrementa el capital en cada periodo.
+
+# Capitalizacion de fondo
+-El fondo crece mediante interés compuesto: los intereses generados se reinvierten y también producen intereses.
+
+-Cada aportación tiene su propio proceso de capitalización dependiendo del momento en que se realiza.
+
+-Este mecanismo permite que el fondo acumule el monto requerido para amortizar la deuda al final del plazo.
+
+## Formula valor futuro de una anualidad 
+Para calcular el monto acumulado o el depósito necesario se usa:
+
+$$
+VF = R \left( \frac{(1+i)^n - 1}{i} \right)
+$$
+
+Donde:
+
+- *R* = depósito periódico  
+- *i* = tasa de interés por periodo  
+- *n* = número total de periodos  
+- *VF* = monto futuro que se desea reunir
+
+# Tipos de fondo de amortizacion
+*Fondo de amortizacion de bonos rescatables:Disenado para empresas que deseen recomprar sus bonos antes del vencimiento(reducir los costos de los intereses a largo plazo) y en parte en gestion de riesgos
+
+*Fondo de amortizacion para fines especificos:Reserve para un costo futuro muy claro e inamovible. Podría tratarse de equipo nuevo, una ampliación de la planta o cualquier otra inversión que requiera mucho dinero y tenga un plazo predecible
+
+# 
+
+*Fondo de amortización de pagos regulares:Cuando una empresa sabe que tiene que pagar algo regularmente, como intereses o comisiones fiduciarias, el fondo no tiene que retirar dinero del flujo de caja operativo cada vez; puede gestionar el impacto sin problemas
+
+*Fondo de amortización de recompra:Permite la recompra de bonos en el mercado abierto. La empresa puede liquidar su deuda a un precio menor si los precios bajan.
+
+# Cálculo del depósito periódico (Sinking Fund) 
+Depósitos nivelado
+
+En un fondo de amortización se realizan pagos periódicos iguales al final de cada periodo. Estos pagos forman una anualidad ordinaria, por lo que el valor futuro (monto acumulado) se calcula con la fórmula de anualidad ordinaria:
+
+#
+
+$$
+M = R \left( \frac{(1+i)^n - 1}{i} \right)
+$$
+$$
+R = \frac{Mi}{(1+i)^n - 1}
+$$
+
+# Depósitos anticipados vs vencidos
+Si los depósitos se realizan al inicio de cada periodo (anualidad anticipada), cada pago genera un periodo adicional de interés. La fórmula del valor futuro en este caso incluye un factor  extra:
+
+$$
+M = R(1+i)\left( \frac{(1+i)^n - 1}{i} \right)
+$$
+
+# Ejemplos de aplicación
+Un caso típico es calcular el depósito necesario para reunir un monto fijo. 
+
+Por ejemplo, para acumular $260,000 en 7 años al 15% anual mediante un fondo de amortización, se aplica la fórmula de anualidad ordinaria. Al resolverla se obtiene una renta anual . Esto significa que depositando esa cantidad cada año al 15% se acumula justo $260,000 al final del séptimo año. 
+
+Ejemplos como este ilustran cómo determinar el depósito periódico nivelado que permite alcanzar la meta de ahorro o amortización.
+
+# Aplicacion a la amorticacion de la deuda
+Amortizacion final mediante fondo
+En lugar de ir pagando la deuda poco a poco, el deudor solo paga intereses periódicos y aporta a un fondo de amortización que acumula dinero.    
+-El fondo (que se formó con depósitos periódicos + intereses ganados)
+-Se usa para pagar el capital de la deuda completo de un solo golpe.                    
+
+# ¿Como funciona? 
+El deudor paga intereses a la institución cada periodo.
+-Simultáneamente hace depósitos en un fondo que gana una tasa de rendimiento.
+Al final del plazo, el fondo tiene el monto exacto para amortizar el principal.
+
+# Sistema Francés (cuota fija)
+-Cuotas iguales cada periodo.
+-Interés baja y amortización sube con el tiempo.
+-Capital se amortiza poco a poco.
+
+# Sistema Alemán (amortización fija)
+-La amortización del capital es constante cada periodo.
+-Las cuotas van disminuyendo.
+-Capital se reduce más rápido que en el francés.
+
+# Sistema Americano (interés + amortización final)
+-Pagos periódicos: solo intereses.
+-Al final se paga todo el capital.
+-El pago final es muy grande.
+
+# Fondo de amortización
+-Funciona parecido al americano, pero con una diferencia clave:
+-En el americano, el deudor debe tener el dinero para el pago final.
+-En el fondo, el deudor va apartando dinero periódicamente, garantizando tener el monto final.
+
+# Ventajas y Desventajas
+Ventajas:
+
+-No requiere gran pago final.
+
+-El fondo genera interés compuesto.
+
+-Proporciona seguridad para cubrir la deuda.
+
+Desventajas:
+
+-Solo se pagan intereses durante el plazo.
+
+-Puede ser más costoso si la tasa del fondo es baja.
+
+-Requiere constancia en los depósitos.
+
+# Tabla de acumulación
+La tabla de acumulación de un fondo de amortización (sinking fund schedule) es una matriz donde cada fila corresponde a un periodo y muestra cómo evolucionan los depósitos y el saldo del fondo.
+Las columnas son: Periodo, Saldo inicial, Interés ganado, Depósito y Saldo final. 
+En cada periodo se suma al saldo anterior el interés ganado (Saldoprevio • i) y el depósito periódico; así el saldo crece gradualmente hasta alcanzar el monto objetivo al final del plazo.
+
+# Elaboración paso a paso
+Primero se identifican las variables principales: 
+Número de periodos n, tasa por periodo i y depósito periódico.
+Para el primer periodo, el saldo inicial suele ser 0 (o el saldo de arranque) y se registra el depósito R. 
+A continuación se calcula el interés ganado aplicando la tasa al saldo inicial (en el primer periodo suele ser 0) y se suma al saldo final. Este proceso se repite fila por fila: en cada nueva fila el saldo inicial es el saldo final del periodo anterior, se calcula el interés correspondiente, se añade el depósito y se obtiene el nuevo saldo final.
+
+# Intereses generados cada periodo
+En cada periodo el fondo genera intereses sobre el saldo acumulado previo. El interés de cada periodo es 
+$$
+\text{Saldo}_{k-1} \times i
+$$
+Este interés se añade al fondo, por lo que en la tabla la columna "Interés ganado" indica ese monto por periodo.
+
+# Evolución del saldo del fondo
+El saldo inicial de cada periodo se obtiene sumando el saldo inicial, el interés del periodo y el depósito. 
+Al avanzar los periodos, este saldo acumulado crece hasta igualar la meta fijada (por ejemplo, el valor futuro deseado). De esta forma, al concluir el último periodo el saldo final del fondo coincide con el monto objetivo calculado. 
+En resumen, cada fila de la tabla muestra el depósito, el interés ganado y el saldo acumulado en ese periodo, garantizando que al final del plazo el fondo reúna el monto deseado bajo pagos periódicos iguales.
+
+# Comparación entre fondo de amortización y amortización directa
+Costo total de intereses
+
++ Fondo de Amortización
+
+El deudor solo paga intereses sobre el monto total prestado durante toda la vida del préstamo.
+
+#
+
+La deuda no disminuye sino hasta el final, cuando se usa el fondo acumulado.
+
+Por eso, se pagan más intereses totales.
+
++ Amortización Directa
+
+Se paga parte del capital en cada periodo, el saldo va bajando.
+
+Al tener menor saldo cada vez, los intereses se calculan sobre un monto cada vez menor.
+
+# Flujo de efectivo (Cash Flow)
+Fondo de Amortización
+
++ Pagos periódicos:
+
+1) Intereses del préstamo (fijos).
+
+2) Aportación al fondo (ahorro).
+
++ Los pagos pueden ser menores al inicio, pero requieren una gran cantidad al final para liquidar con el fondo.
+
+# Valor presente del servicio de deuda
+El servicio de deuda incluye todos los pagos: intereses y amortizaciones/aportaciones.
+
++ Fondo de Amortización
+
+Como los intereses se pagan sobre el saldo total durante todo el plazo, los pagos de intereses son mayores.
+
+Aunque las aportaciones al fondo se descuentan al valor presente,
+el VP del servicio de deuda resulta mayor.
+
+#
+
++ Amortización Directa
+
+Al disminuir el saldo desde el inicio, los intereses caen rápidamente.
+
+Los pagos futuros descontados dan un valor presente menor.
+
+Amortización Directa
+
++ El pago total periódico puede ser: Constante (sistema francés), o Decreciente (sistema alemán).
+
++ No hay gran pago final, porque el capital se va cancelando desde el principio.
+
+# Empresas y manejo de activos
+En el ámbito empresarial, los fondos de amortización sirven como un sistema de ahorro planificado para cubrir gastos futuros importantes. 
+Se forman mediante aportaciones periódicas iguales durante la vida útil de un activo, con el fin de acumular el monto necesario para reemplazarlo al término de su uso. 
+
+#
+
+De este modo, al finalizar la vida útil del bien se dispone de efectivo para adquirir un activo sustituto, mejorando la gestión de activos de la empresa. 
+Además, las corporaciones emplean estos fondos para gestionar sus deudas: al contar con un plan de amortización claro pueden asegurar su liquidez y estabilidad financiera ante inversores y acreedores.
+
+# Emisión de bonos (Sinking Fund)
+Al emitir deuda, las empresas (y gobiernos) a menudo crean un fondo de amortización de bonos (sinking fund) para garantizar el pago del principal al vencimiento. 
+Este fondo se nutre de depósitos periódicos que generan intereses y se destinan a pagar gradualmente la obligación. 
+Como señala Petroff, “los fondos de amortización de bonos están diseñados para poder cumplir con las obligaciones de deuda a su vencimiento”.
+
+#
+
+Este mecanismo reduce el riesgo de impago, lo cual puede traducirse en tasas de interés más bajas en la emisión de bonos, al ofrecer mayor seguridad a los inversionistas. 
+En la práctica, gobiernos y empresas establecen estos fondos al emitir bonos para infraestructura u otros proyectos, asegurando así recursos suficientes para intereses y principal a lo largo del tiempo.
+
+# Finanzas personales
+En finanzas personales, un fondo de amortización funciona como un ahorro dedicado a cubrir gastos futuros previstos de gran magnitud. 
+Es decir, consiste en reservar un capital mediante pagos periódicos en una cuenta o instrumento financiero que genere intereses. 
+Cualquier persona que ahorra sistemáticamente para una meta específica (como unas vacaciones o un pago importante planificado) está empleando un fondo de amortización.
+
+#
+
+Los especialistas recomiendan incluir este tipo de fondos en el presupuesto familiar, ya que “su objetivo es reunir cierta cantidad de capital destinado exclusivamente a un gasto significativo planificado con tiempo”. 
+De este modo, el individuo acumula rendimientos sobre su ahorro y sabe de antemano que dispondrá del dinero necesario cuando ocurra el evento.
+
+# Proyectos de inversión
+
+En la evaluación de proyectos de inversión a gran escala (por ejemplo, plantas industriales, infraestructura o carreteras), también se utiliza el concepto de fondo de amortización. 
+En estos casos, se planifica un flujo de ahorros periódicos para distribuir el costo del proyecto a lo largo del tiempo y evitar grandes desembolsos repentinos. 
+
+#
+
+Tal como indican los estudios financieros, “en proyectos de inversión a gran escala establecer un fondo de amortización es esencial para asegurar que los costos se distribuyan a lo largo del tiempo, evitando cargas financieras inesperadas”. 
+Esto mejora la viabilidad del proyecto y la sostenibilidad financiera, pues garantiza que al vencer las obligaciones haya recursos disponibles sin afectar la operación diaria.
+
+# Ejemplos prácticos
+
+Supongamos que una empresa debe pagar una deuda de $1,000,000 MXN en 10 años y decide constituir un fondo de amortización para cubrirla. La tasa de interés del mercado es del 6% anual. Se pregunta: ¿cuál debe ser la aportación anual (al final de cada año) que se deposita en el fondo para reunir el millón de pesos al vencimiento?
+
+# Resultado
+Se debe depositar aproximadamente $75,868 MXN al final de cada año. Con estas aportaciones y el interés compuesto al 6%, el fondo alcanzará el millón de pesos en 10 años.
+
+# Problemas mas comunes
+
+1. Depositar menos de lo necesario: 
+Es como ahorrar para una consola de videojuegos que cuesta $10,000, pero tú solo guardas $100 al mes… nunca vas a llegar.
+		Eso pasa cuando las aportaciones del fondo no alcanzan para pagar la deuda al final
+		
+2. La tasa de interés resulta más baja de la esperada:
+Imagina que esperabas que tus ahorros te dieran intereses altos, pero al final te dieron casi nada.Entonces el fondo crece menos y no llega al monto necesario
+
+#
+
+3. Mal manejo de fondo:
+Es como darle el dinero a un amigo para que lo invierta y él elige mal dónde meterlo.Si quien administra el fondo hace malas inversiones, el dinero no crece o incluso se pierde.
+
+4. Riesgo del mercado:Si el dinero del fondo se invierte en algo que sube y baja mucho (como acciones), puede perderse justo antes de necesitarlo.Es como ahorrar para un viaje y justo el mes antes tu dinero se devalúa.
+
+# Errores tipicos 
+
+1. Confundir la tasa real con la tasa nominal:Es como que te digan te voy a dar 12% al año, pero en realidad solo te dan ese 12% si reinviertes cada mes.Confundir esto hace que calcules mal cuánto debes depositar
+
+2. Pensar que los intereses son garantizados:Algunos creen que el dinero siempre va a crecer igual, cuando no es cierto.Esto hace que la gente piense que va a alcanzar… y luego no alcanza
+
+# 
+
+3. No ajustar el plan cuando cambian las condiciones:Si cambia la tasa de interés o cambian las fechas de la deuda, se tienen que recalcular los depósitos del fondo.La gente no lo hace y se queda corta
+
+4. No revisar el fondo de vez en cuando:Es como ahorrar sin nunca ver si realmente estás juntando suficiente.Sin revisiones, los problemas se descubren demasiado tarde.
+
+## Descargar presentación
+
+[📥 Descargar PDF de las diapositivas](fondosdeamortizacion.pdf)
